@@ -62,7 +62,7 @@ header {
     background-color: rgb(30 144 255);
     border: 2px dashed black;
     width: 45%;
-    padding: 11rem;
+    padding: 9rem;
     
 }
 
@@ -70,7 +70,7 @@ header {
     background-color:rgb(255 192 203) ;
     border: 2px dashed black;
     width: 25%;
-    padding: 11rem;
+    padding: 9rem;
 }
 
 .center {
@@ -80,5 +80,14 @@ header {
     margin-bottom: 50px;
 }
 
+
+.center2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:rgb(211 211 211) ;
+    padding: 2rem;
+}
 
 
