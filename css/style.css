@@ -4,3 +4,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* CONTAINER */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    height: 80px;
+    background-color: rgb(173 216 230);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigation Container */
+.nav-container {
+   background-color: rgb(218 165 32);
+   border: 1px dashed black;
+   width: calc(150% / 3);
+   margin-top: 15px;
+   padding: .5rem;
+}
+/* Navigation Container */
+
+/* Text inside nav bar */
+.text {
+    display: flex;
+    justify-content: space-between; 
+}
+/* Text inside nav bar */
+
