@@ -24,7 +24,7 @@ header {
 /* Navigation Container */
 .nav-container {
    background-color: rgb(218 165 32);
-   border: 1px dashed black;
+   border: 2px dashed black;
    width: 800px;
    margin-top: 15px;
    padding: .5rem;
@@ -38,19 +38,47 @@ header {
 }
 /* Text inside nav bar */
 
+/* MAIN */
+/* Home Background */
 .home {
     background-color: rgb(0 0 139);
     height: 350px;
     display: flex;
     align-items: center;
 }
+/* Home Background */
 
-
+/* Box inside home  */
 .box-home {
     background-color:rgb(238 130 238);
-    border: 1px dashed black;
+    border: 2px dashed black;
     width: 600px;
     padding: 9rem;
     margin: 0px auto;
 }
+/* Box inside home  */
+
+.image-text {
+    background-color: rgb(30 144 255);
+    border: 2px dashed black;
+    width: 45%;
+    padding: 11rem;
+    
+}
+
+.box-aside{
+    background-color:rgb(255 192 203) ;
+    border: 2px dashed black;
+    width: 25%;
+    padding: 11rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
 
