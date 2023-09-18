@@ -9,10 +9,12 @@
     width: 90%;
     margin: 0 auto;
 }
+/* HEADER */
 header {
     height: 80px;
     background-color: rgb(173 216 230);
 }
+/* HEADER */
 
 .flex-container {
     display: flex;
@@ -23,7 +25,7 @@ header {
 .nav-container {
    background-color: rgb(218 165 32);
    border: 1px dashed black;
-   width: calc(150% / 3);
+   width: 800px;
    margin-top: 15px;
    padding: .5rem;
 }
@@ -35,4 +37,20 @@ header {
     justify-content: space-between; 
 }
 /* Text inside nav bar */
+
+.home {
+    background-color: rgb(0 0 139);
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+
+.box-home {
+    background-color:rgb(238 130 238);
+    border: 1px dashed black;
+    width: 600px;
+    padding: 9rem;
+    margin: 0px auto;
+}
 
